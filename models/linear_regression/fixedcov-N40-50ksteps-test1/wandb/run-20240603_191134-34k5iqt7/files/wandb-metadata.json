@@ -1,0 +1,27 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-06-04T02:11:37.156586",
+    "startedAt": "2024-06-04T02:11:34.630777",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1080",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--config",
+        "conf/linear_regression-fixedcov_N40.yaml"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "fixedcov_N40\\train.py",
+    "git": {
+        "remote": "https://github.com/PokeBowen/weeklong-mini-project---in-context-learning.git",
+        "commit": "70e6e98058b6253660a03f8cb41f4aaee633e440"
+    },
+    "email": "bowenzheng@g.ucla.edu",
+    "root": "C:/Users/bowen/Documents/GitHub Desktop/weeklong-mini-project---in-context-learning",
+    "host": "DESKTOP-BHCQ5KS",
+    "username": "bowen",
+    "executable": "C:\\Users\\bowen\\anaconda3\\envs\\weeklong-mini-project\\python.exe"
+}

@@ -1,0 +1,41 @@
+config: conf/sparse_linear_regression.yaml
+inherit:
+- base.yaml
+model:
+  family: gpt2
+  n_dims: 20
+  n_embd: 256
+  n_head: 8
+  n_layer: 12
+  n_positions: 200
+out_dir: ../models/sparse_linear_regression
+test_run: false
+training:
+  batch_size: 64
+  curriculum:
+    dims:
+      end: 20
+      inc: 1
+      interval: 2000
+      start: 5
+    points:
+      end: 41
+      inc: 2
+      interval: 2000
+      start: 11
+  data: gaussian
+  keep_every_steps: 100000
+  learning_rate: 0.0001
+  num_tasks: null
+  resume_id: null
+  save_every_steps: 1000
+  task: sparse_linear_regression
+  task_kwargs:
+    sparsity: 3
+  train_steps: 500001
+wandb:
+  entity: in-context
+  log_every_steps: 100
+  name: sparse_regression_pretrained
+  notes: ''
+  project: in-context-training

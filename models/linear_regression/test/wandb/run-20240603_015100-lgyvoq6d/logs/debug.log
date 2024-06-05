@@ -1,0 +1,139 @@
+2024-06-03 01:51:00,255 INFO    MainThread:13524 [wandb_setup.py:_flush():75] Loading settings from C:\Users\bowen\.config\wandb\settings
+2024-06-03 01:51:00,255 INFO    MainThread:13524 [wandb_setup.py:_flush():75] Loading settings from C:\Users\bowen\Documents\GitHub Desktop\weeklong-mini-project---in-context-learning\src\wandb\settings
+2024-06-03 01:51:00,255 INFO    MainThread:13524 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2024-06-03 01:51:00,255 INFO    MainThread:13524 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'src\\train.py', 'program': 'train.py'}
+2024-06-03 01:51:00,256 INFO    MainThread:13524 [wandb_init.py:_log_setup():405] Logging user logs to ../models/linear_regression\ba228089-2cba-4586-a66e-fd28e9864891\wandb\run-20240603_015100-lgyvoq6d\logs\debug.log
+2024-06-03 01:51:00,256 INFO    MainThread:13524 [wandb_init.py:_log_setup():406] Logging internal logs to ../models/linear_regression\ba228089-2cba-4586-a66e-fd28e9864891\wandb\run-20240603_015100-lgyvoq6d\logs\debug-internal.log
+2024-06-03 01:51:00,256 INFO    MainThread:13524 [wandb_init.py:init():439] calling init triggers
+2024-06-03 01:51:00,256 INFO    MainThread:13524 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'model': {'family': 'gpt2', 'n_embd': 256, 'n_layer': 12, 'n_head': 8, 'n_positions': 11, 'n_dims': 5}, 'wandb': {'project': 'in-context-training', 'entity': 'ucla-bowenzheng', 'notes': '', 'log_every_steps': 1000, 'name': 'linear_regression_toy'}, 'config': 'conf/toy.yaml', 'training': {'curriculum': {'points': {'end': 11, 'start': 11, 'inc': 2, 'interval': 2000}, 'dims': {'interval': 2000, 'end': 5, 'start': 5, 'inc': 1}}, 'task': 'linear_regression', 'data': 'gaussian', 'resume_id': None, 'batch_size': 64, 'learning_rate': 0.0001, 'task_kwargs': {}, 'num_tasks': None, 'save_every_steps': 1000, 'num_training_examples': None, 'train_steps': 5001, 'keep_every_steps': 100000}, 'test_run': False, 'out_dir': '../models/linear_regression\\ba228089-2cba-4586-a66e-fd28e9864891', 'inherit': ['C:\\Users\\bowen\\Documents\\GitHub Desktop\\weeklong-mini-project---in-context-learning\\src\\conf\\models\\standard.yaml', 'C:\\Users\\bowen\\Documents\\GitHub Desktop\\weeklong-mini-project---in-context-learning\\src\\conf\\wandb.yaml']}
+2024-06-03 01:51:00,256 INFO    MainThread:13524 [wandb_init.py:init():492] starting backend
+2024-06-03 01:51:00,256 INFO    MainThread:13524 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2024-06-03 01:51:00,261 INFO    MainThread:13524 [backend.py:ensure_launched():219] starting backend process...
+2024-06-03 01:51:00,345 INFO    MainThread:13524 [backend.py:ensure_launched():224] started backend process with pid: 11648
+2024-06-03 01:51:00,345 INFO    MainThread:13524 [wandb_init.py:init():501] backend started and connected
+2024-06-03 01:51:00,349 INFO    MainThread:13524 [wandb_init.py:init():565] updated telemetry
+2024-06-03 01:51:00,391 INFO    MainThread:13524 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2024-06-03 01:51:02,655 INFO    MainThread:13524 [wandb_run.py:_on_init():1759] communicating current version
+2024-06-03 01:51:02,742 INFO    MainThread:13524 [wandb_run.py:_on_init():1763] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-03 01:51:02,742 INFO    MainThread:13524 [wandb_init.py:init():625] starting run threads in backend
+2024-06-03 01:51:02,888 INFO    MainThread:13524 [wandb_run.py:_console_start():1733] atexit reg
+2024-06-03 01:51:02,889 INFO    MainThread:13524 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2024-06-03 01:51:02,889 INFO    MainThread:13524 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2024-06-03 01:51:02,891 INFO    MainThread:13524 [wandb_run.py:_redirect():1667] Redirects installed.
+2024-06-03 01:51:02,892 INFO    MainThread:13524 [wandb_init.py:init():664] run started, returning control to user process
+2024-06-03 01:56:17,729 INFO    MainThread:13524 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2024-06-03 01:56:17,730 INFO    MainThread:13524 [wandb_run.py:_restore():1674] restore
+2024-06-03 01:56:18,304 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 916
+  total_bytes: 916
+}
+
+2024-06-03 01:56:18,423 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 916
+  total_bytes: 916
+}
+
+2024-06-03 01:56:18,640 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 916
+  total_bytes: 916
+}
+
+2024-06-03 01:56:19,276 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 916
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:19,380 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 916
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:19,486 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 916
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:19,594 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7021
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:19,704 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7021
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:19,813 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7021
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:19,923 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7021
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:20,033 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7021
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:20,371 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7021
+  total_bytes: 7021
+}
+
+2024-06-03 01:56:20,760 INFO    MainThread:13524 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7021
+  total_bytes: 7021
+}
+local_info {
+}
+
+2024-06-03 01:56:21,890 INFO    MainThread:13524 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2024-06-03 01:56:21,890 INFO    MainThread:13524 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2024-06-03 01:56:21,892 INFO    MainThread:13524 [wandb_run.py:_footer_sync_info():2822] logging synced files

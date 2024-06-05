@@ -1,0 +1,25 @@
+2024-06-03 03:01:54,559 INFO    MainThread:20040 [wandb_setup.py:_flush():75] Loading settings from C:\Users\bowen\.config\wandb\settings
+2024-06-03 03:01:54,559 INFO    MainThread:20040 [wandb_setup.py:_flush():75] Loading settings from C:\Users\bowen\Documents\GitHub Desktop\weeklong-mini-project---in-context-learning\wip\wandb\settings
+2024-06-03 03:01:54,559 INFO    MainThread:20040 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2024-06-03 03:01:54,560 INFO    MainThread:20040 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'wip\\train.py', 'program': 'train.py'}
+2024-06-03 03:01:54,560 INFO    MainThread:20040 [wandb_init.py:_log_setup():405] Logging user logs to ../models/linear_regression\e0284f8b-f3a0-40dd-b16f-6fa0ddf58475\wandb\run-20240603_030154-a4j6mnj4\logs\debug.log
+2024-06-03 03:01:54,560 INFO    MainThread:20040 [wandb_init.py:_log_setup():406] Logging internal logs to ../models/linear_regression\e0284f8b-f3a0-40dd-b16f-6fa0ddf58475\wandb\run-20240603_030154-a4j6mnj4\logs\debug-internal.log
+2024-06-03 03:01:54,560 INFO    MainThread:20040 [wandb_init.py:init():439] calling init triggers
+2024-06-03 03:01:54,560 INFO    MainThread:20040 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'model': {'family': 'gpt2', 'n_embd': 256, 'n_layer': 12, 'n_head': 8, 'n_dims': 20, 'n_positions': 101}, 'wandb': {'project': 'in-context-training', 'entity': 'ucla-bowenzheng', 'notes': '', 'log_every_steps': 1000, 'name': 'linear_regression_standard'}, 'inherit': ['C:\\Users\\bowen\\Documents\\GitHub Desktop\\weeklong-mini-project---in-context-learning\\wip\\conf\\base.yaml'], 'training': {'data': 'gaussian', 'task_kwargs': {}, 'batch_size': 64, 'learning_rate': 0.0001, 'save_every_steps': 1000, 'keep_every_steps': 100000, 'train_steps': 500001, 'curriculum': {'dims': {'start': 5, 'end': 20, 'inc': 1, 'interval': 2000}, 'points': {'interval': 2000, 'inc': 2, 'end': 41, 'start': 11}}, 'num_tasks': None, 'num_training_examples': None, 'resume_id': None, 'task': 'linear_regression'}, 'config': 'conf/linear_regression.yaml', 'test_run': False, 'out_dir': '../models/linear_regression\\e0284f8b-f3a0-40dd-b16f-6fa0ddf58475'}
+2024-06-03 03:01:54,560 INFO    MainThread:20040 [wandb_init.py:init():492] starting backend
+2024-06-03 03:01:54,560 INFO    MainThread:20040 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2024-06-03 03:01:54,565 INFO    MainThread:20040 [backend.py:ensure_launched():219] starting backend process...
+2024-06-03 03:01:54,643 INFO    MainThread:20040 [backend.py:ensure_launched():224] started backend process with pid: 7152
+2024-06-03 03:01:54,644 INFO    MainThread:20040 [wandb_init.py:init():501] backend started and connected
+2024-06-03 03:01:54,647 INFO    MainThread:20040 [wandb_init.py:init():565] updated telemetry
+2024-06-03 03:01:54,686 INFO    MainThread:20040 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2024-06-03 03:01:56,882 INFO    MainThread:20040 [wandb_run.py:_on_init():1759] communicating current version
+2024-06-03 03:01:56,974 INFO    MainThread:20040 [wandb_run.py:_on_init():1763] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-03 03:01:56,975 INFO    MainThread:20040 [wandb_init.py:init():625] starting run threads in backend
+2024-06-03 03:01:57,125 INFO    MainThread:20040 [wandb_run.py:_console_start():1733] atexit reg
+2024-06-03 03:01:57,125 INFO    MainThread:20040 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2024-06-03 03:01:57,125 INFO    MainThread:20040 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2024-06-03 03:01:57,127 INFO    MainThread:20040 [wandb_run.py:_redirect():1667] Redirects installed.
+2024-06-03 03:01:57,128 INFO    MainThread:20040 [wandb_init.py:init():664] run started, returning control to user process
